@@ -16,7 +16,7 @@ except ImportError:
 def bersih():
     os.system('clear')
 def balik():
-    os.system("python tools.py")
+    os.system("python Gank.py")
 def kembali():                                           
     try:
         t = input("\033[1;97mKembali? (y/t): ")
@@ -360,10 +360,10 @@ def login():
     try:
         bersih()
         kata("""
-        \033[1;96m  <=\033[1;97mMenu Tools\033[1;96m=>
+        \033[1;96m  <=\033[1;97mMenu Tools Cok\033[1;96m=>
 
         \033[1;94m{\033[1;97m01\033[1;94m}\033[1;97m Info Tools
-        \033[1;94m{\033[1;97m02\033[1;94m}\033[1;97m Go To Menu
+        \033[1;94m{\033[1;97m02\033[1;94m}\033[1;97m Otw Menu
         \033[1;94m{\033[1;97m03\033[1;94m}\033[1;97m Update Tools
         """)
         f = input("\033[1;97m> \033[1;92m")
@@ -373,8 +373,8 @@ def login():
 \033[90m--------------------------------------------
 \033[1;97m          INFO
 
-\033[1;97mcreator:\033[1;92mFahmiApz
-\033[1;97mYoutube:\033[1;92mApmzChannel
+\033[1;97mcreator:\033[1;92mFaizulBoften
+\033[1;97mYoutube:\033[1;92mHtc Ctr Gaming
 
             \033[1;91mNOTE
 \033[1;97mThis script is not made for crime,
